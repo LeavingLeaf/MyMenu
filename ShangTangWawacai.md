@@ -31,5 +31,5 @@
     2. interProduct = Fry([interProduct, Soup_Boil], 1min, LEVEL5)
     3. Soup = Fry([interProduct, ChickernPowder.halfSpoon, Salt.quarterSpoon], 1min, LEVEL5])
 3. **Plate Presentation**
-    1. interPlate = Plate([Wawacai_blach, Topping )
+    1. interPlate = Plate(Wawacai_blach, Topping)
     2. FinalPlate = Plate(interPlate, Soup)
